@@ -1,0 +1,26 @@
+#: import hex kivy.utils.get_color_from_hex
+
+<TutorialThree>
+
+    FloatLayout
+        size_hint: 1, .5
+        pos_hint: {'center_x': .5,'center_y': .75}
+
+        canvas:
+            Color:
+                rgba: hex('#00aa00')
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+        Label:
+            text: 'FloatLayout'
+            color: 'white'
+            bold: 'True'
+            pos_hint: {'center_x': .1,'center_y': .8}
+
+        Label:
+            text: 'Armstone'
+            color: 'white'
+            bold: 'True'
+            pos_hint: {'center_x': .5,'center_y': .5}

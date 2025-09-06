@@ -10,6 +10,7 @@ from kivy.lang import Builder
 
 from screens.tutorialOne.tutorialOne import TutorialOne
 from screens.tutorialTwo.tutorialTwo import TutorialTwo
+from screens.tutorialThree.tutorialThree import TutorialThree
 
 
 class MainApp(MDApp):
@@ -20,7 +21,7 @@ class MainApp(MDApp):
 
     def on_start(self):
         # Set default screen
-        self.root.current = 'tutorial_two'
+        self.root.current = 'tutorial_three'
 
 
 if __name__ == "__main__":
